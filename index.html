@@ -1,65 +1,58 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Indenica/TUV Releases</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8">
+    <title>Indenica TUV Releases by indenicatuv</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Indenica/TUV Releases</h1>
-        <p>The Indenica/TUV Maven/P2 Repositories</p>
+    <section class="page-header">
+      <h1 class="project-name">Indenica TUV Releases</h1>
+      <h2 class="project-tagline">The Indenica TUV Maven/P2 Repositories</h2>
+      <a href="https://github.com/indenicatuv/releases" class="btn">View on GitHub</a>
+      <a href="https://github.com/indenicatuv/releases/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/indenicatuv/releases/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-        <p class="view"><a href="https://github.com/indenicatuv/releases">View the Project on GitHub <small>indenicatuv/releases</small></a></p>
-
-
-        <!-- <ul>
-          <li><a href="https://github.com/indenicatuv/releases/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/indenicatuv/releases/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/indenicatuv/releases">View On <strong>GitHub</strong></a></li>
-        </ul> -->
-      </header>
-      <section>
-        <p>Welcome to the <a href="http://dsg.tuwien.ac.at">TUV</a> <a href="http://indenica.eu">Indenica</a> Maven repository and Eclipse update site.</p>
+    <section class="main-content">
+      <p>Welcome to the <a href="http://dsg.tuwien.ac.at">TUV</a> <a href="http://indenica.eu">Indenica</a> Maven repository and Eclipse update site.</p>
 
 <h2>
-<a name="monina-editor" class="anchor" href="#monina-editor"><span class="octicon octicon-link"></span></a>Monina Editor</h2>
+<a id="monina-editor" class="anchor" href="#monina-editor" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Monina Editor</h2>
 
-<p>Add the <a href="https://github.com/inz/monina">MONINA</a> editor to your Eclipse installation by adding the following updatesite: <a href="https://raw.github.com/indenicatuv/releases/p2-monina/">https://raw.github.com/indenicatuv/releases/p2-monina/</a> </p>
+<p>Add the MONINA editor to your Eclipse installation by adding the following updatesite: <a href="http://raw.github.com/indenicatuv/releases/p2-monina/">http://raw.github.com/indenicatuv/releases/p2-monina/</a> </p>
 
 <h2>
-<a name="runtime-core" class="anchor" href="#runtime-core"><span class="octicon octicon-link"></span></a>Runtime Core</h2>
+<a id="runtime-core" class="anchor" href="#runtime-core" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Runtime Core</h2>
 
-<p>Add the Indenica <a href="https://github.com/inz/indenica-runtime-core">Runtime Core</a> to your Maven project by adding the following to your <code>pom.xml</code>:</p>
+<p>Add the Indenica Runtime Core to your Maven project by adding the following to your <code>pom.xml</code>:</p>
 
 <pre><code>&lt;dependencies&gt;
   &lt;groupId&gt;eu.indenica.runtime&lt;/groupId&gt;
   &lt;artifactId&gt;core&lt;/artifactId&gt;
-  &lt;version&gt;0.1.4&lt;/version&gt;
+  &lt;version&gt;0.1.0&lt;/version&gt;
 &lt;/dependencies&gt;
 
 &lt;repositories&gt;
   &lt;repository&gt;
     &lt;id&gt;indenica-rt-core&lt;/id&gt;
-    &lt;url&gt;https://raw.github.com/indenicatuv/releases/mvn/&lt;/url&gt;
+    &lt;url&gt;https://raw.github.com/indenicatuv/releases/mvn-core/&lt;/url&gt;
   &lt;/repository&gt;
 &lt;/repositories&gt;
 </code></pre>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/indenicatuv">indenicatuv</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/indenicatuv/releases">Indenica TUV Releases</a> is maintained by <a href="https://github.com/indenicatuv">indenicatuv</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
       </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
+
+    </section>
+
+  
   </body>
 </html>
